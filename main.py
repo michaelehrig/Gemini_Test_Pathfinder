@@ -7,7 +7,7 @@ from google import genai
 from google.genai import types
 
 from config import system_prompt, user_prompt, model_name
-from functions.call_function import call_function, available_functions
+from functions.call_function import available_functions
 from functions.allowed_functions import *
 
 def generate_response(client: genai.Client, messages: list):
